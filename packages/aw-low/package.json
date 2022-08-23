@@ -1,7 +1,7 @@
 {
-  "name": "aw-ui-{{kebabCase name}}",
+  "name": "aw-ui-low",
   "version": "0.0.1",
-  "description": "aw-ui-{{kebabCase name}}",
+  "description": "aw-ui-low",
   "author": "Awed",
   "type":"module",
   "keywords": [

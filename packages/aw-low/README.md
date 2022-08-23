@@ -1,17 +1,17 @@
-# AwHouse
+# AwLow
 
 ## Usage
 
 Just for my own use.
 
 ```javascript
-import AwHouse from 'aw-ui-house'
-Vue.use(AwHouse)
+import AwLow from 'aw-ui-low'
+Vue.use(AwLow)
 ```
 
 ## Installation
 
 ```javascript
-npm install aw-ui-house
+npm install aw-ui-low
 ```
 

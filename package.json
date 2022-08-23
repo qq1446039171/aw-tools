@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "aw-ui-lerna",
+
   "workspaces": [
     "packages/*"
   ],

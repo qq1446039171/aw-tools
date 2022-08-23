@@ -17,6 +17,11 @@ module.exports = (plop) => {
     actions: [
       {
         type: 'add',
+        path: 'packages/aw-{{kebabCase name}}/src/index.vue',
+        templateFile: 'template/component/src/index.hbs',
+      },
+      {
+        type: 'add',
         path: 'packages/aw-{{kebabCase name}}/index.js',
         templateFile: 'template/component/index.hbs',
       },
@@ -29,6 +34,11 @@ module.exports = (plop) => {
         type: 'add',
         path: 'packages/aw-{{kebabCase name}}/README.md',
         templateFile: 'template/component/README.hbs',
+      },
+      {
+        type: 'add',
+        path: 'packages/aw-{{kebabCase name}}/rollup.config.js',
+        templateFile: 'template/component/rollup.config.hbs',
       },
     ],
   })
