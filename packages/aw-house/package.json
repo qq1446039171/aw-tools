@@ -1,6 +1,6 @@
 {
   "name": "aw-ui-house",
-  "version": "0.0.1",
+  "version": "0.7.5",
   "description": "aw-ui-house",
   "author": "Awed",
   "keywords": [
@@ -19,7 +19,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "aw-ui-window": "^0.0.1",
+    "aw-ui-window": "^0.7.5",
     "lodash": "^4.17.21"
   }
 }
