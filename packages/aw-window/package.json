@@ -1,0 +1,21 @@
+{
+  "name": "aw-ui-window",
+  "version": "0.0.1",
+  "description": "aw-ui-window",
+  "author": "Awed",
+  "keywords": [
+    "aw-ui",
+    "element-ui",
+    "ui",
+    "vue"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "element-ui": "^2.15.0",
+    "vue": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

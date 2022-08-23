@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "create": "plop"
+  },
+  "devDependencies": {
+    "lerna": "^5.4.3",
+    "plop": "^3.1.1"
+  }
+}
