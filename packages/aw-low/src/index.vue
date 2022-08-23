@@ -4,7 +4,7 @@
 
 <script>
   export default { 
-    name: aw-ui-low
+    name: 'aw-ui-low'
   }
 </script>
 
