@@ -8,6 +8,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import { terser } from 'rollup-plugin-terser'
 // 样式处理
 import postcss from 'rollup-plugin-postcss'
+import vuePlugin from 'rollup-plugin-vue'
 export default {
   input: './index.js', //入口文件
   output: {
@@ -20,9 +21,10 @@ export default {
       exclude: 'node_modules/**'
     }),
     postcss({
-    // inject: true, // 把 css 插入到 style 中
-    extract: true, // 把 css 放到和js同一目录
+      extensions: ['.css', '.scss'],
+      extract: 'index.css'
     }),
+    vuePlugin(),
     commonjs(),
     resolve(),
     terser()
