@@ -1,7 +1,7 @@
 {
-  "name": "aw-ui-{{kebabCase name}}",
+  "name": "aw-ui-awd",
   "version": "0.0.1",
-  "description": "aw-ui-{{kebabCase name}}",
+  "description": "aw-ui-awd",
   "author": "Awed",
   "type":"module",
   "keywords": [

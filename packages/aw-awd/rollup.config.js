@@ -14,15 +14,15 @@ export default {
   output: {
     file: './dist/index.js', //打包后的存放文件
     format: 'es', //输出格式 amd es iife umd cjs
-    name: 'aw-ui-low' //如果iife,umd需要指定一个全局变量
+    name: 'aw-ui-awd' //如果iife,umd需要指定一个全局变量
   },
   plugins: [
     babel({
       exclude: 'node_modules/**'
     }),
     // postcss({
-    //   extensions: ['.css', '.scss'],
-    //   extract: 'index.css'
+    // // inject: true, // 把 css 插入到 style 中
+    // extract: true, // 把 css 放到和js同一目录
     // }),
     vuePlugin(),
     commonjs(),

@@ -1,6 +1,6 @@
 {
   "name": "aw-ui-lerna",
-
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -8,7 +8,8 @@
     "create": "plop",
     "pub": "lerna publish",
     "pub:force": "lerna publish --force-publish *",
-    "pub:skip": "lerna publish --skip-git"
+    "pub:skip": "lerna publish --skip-git",
+    "git": "git add -A && git commit -m 'deploy' && git push"
   },
   "devDependencies": {
     "lerna": "^5.4.3",

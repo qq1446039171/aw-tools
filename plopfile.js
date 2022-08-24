@@ -22,6 +22,11 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
+        path: 'packages/aw-{{kebabCase name}}/build.bat',
+        templateFile: 'template/component/build.hbs',
+      },
+      {
+        type: 'add',
         path: 'packages/aw-{{kebabCase name}}/index.js',
         templateFile: 'template/component/index.hbs',
       },

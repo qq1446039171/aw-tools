@@ -1,0 +1,1 @@
+cd packages/aw-low && npm run build
