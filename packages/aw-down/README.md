@@ -1,17 +1,17 @@
-# AwLow
+# AwDown
 
 ## Usage
 
 Just for my own use.
 
 ```javascript
-import AwLow from 'aw-ui-low'
-Vue.use(AwLow)
+import AwDown from 'aw-ui-down'
+Vue.use(AwDown)
 ```
 
 ## Installation
 
 ```javascript
-npm install aw-ui-low
+npm install aw-ui-down
 ```
 

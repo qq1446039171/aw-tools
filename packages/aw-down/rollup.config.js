@@ -7,23 +7,18 @@ import resolve from '@rollup/plugin-node-resolve'
 // 代码压缩插件
 import { terser } from 'rollup-plugin-terser'
 // 样式处理
-// import postcss from 'rollup-plugin-postcss'
 import vuePlugin from 'rollup-plugin-vue'
 export default {
   input: './index.js', //入口文件
   output: {
     file: './dist/index.js', //打包后的存放文件
     format: 'es', //输出格式 amd es iife umd cjs
-    name: 'aw-ui-low' //如果iife,umd需要指定一个全局变量
+    name: 'aw-ui-down' //如果iife,umd需要指定一个全局变量
   },
   plugins: [
     babel({
       exclude: 'node_modules/**'
     }),
-    // postcss({
-    //   extensions: ['.css', '.scss'],
-    //   extract: 'index.css'
-    // }),
     vuePlugin(),
     commonjs(),
     resolve(),

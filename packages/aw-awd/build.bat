@@ -1,1 +1,0 @@
-cd packages/aw-Awd && npm run build
