@@ -17,8 +17,8 @@ module.exports = (plop) => {
     actions: [
       {
         type: 'add',
-        path: 'packages/aw-{{kebabCase name}}/src/index.vue',
-        templateFile: 'template/component/src/index.hbs',
+        path: 'packages/aw-{{kebabCase name}}/main/index.js',
+        templateFile: 'template/component/main/index.hbs',
       },
       {
         type: 'add',

@@ -1,7 +1,11 @@
-import {{properCase name}} from './src/index.vue'
+import {{properCase name}} from './main/index.js'
 
-{{properCase name}}.install = (Vue ) => {
+{{!-- {{properCase name}}.install = (Vue ) => {
 Vue.component({{properCase name}}.name, {{properCase name}})
+} --}}
+
+const install = function (Vue) {
+  Vue.directive(aw-{{kebabCase name}}, {{properCase name}})
 }
 
-export default {{properCase name}}
+export default install
