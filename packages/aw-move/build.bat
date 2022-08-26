@@ -1,0 +1,1 @@
+cd packages/aw-move && npm i && npm run build
