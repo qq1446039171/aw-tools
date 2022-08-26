@@ -1,1 +1,0 @@
-cd packages/aw-Down && npm i  &&npm run build
