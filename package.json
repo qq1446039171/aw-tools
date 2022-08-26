@@ -1,5 +1,5 @@
 {
-  "name": "aw-ui-lerna",
+  "name": "lerna-template",
   "private": true,
   "workspaces": [
     "packages/*"

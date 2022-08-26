@@ -1,1 +1,0 @@
-cd packages/aw-wow && npm i && npm run build
