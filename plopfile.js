@@ -42,6 +42,11 @@ module.exports = (plop) => {
       },
       {
         type: 'add',
+        path: 'packages/aw-{{kebabCase name}}/LICENSE',
+        templateFile: 'template/component/LICENSE.hbs',
+      },
+      {
+        type: 'add',
         path: 'packages/aw-{{kebabCase name}}/rollup.config.js',
         templateFile: 'template/component/rollup.config.hbs',
       },
