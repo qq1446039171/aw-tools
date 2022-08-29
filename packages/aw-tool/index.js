@@ -1,8 +1,12 @@
 import Tool from './main/index.js'
-import Day from './main/modules/day'
+import Date from './main/modules/date'
+import Down from './main/modules/down'
+import Phone from './main/modules/phone'
 
 const install = {
   ...Tool,
-  ...Day
+  ...Date,
+  ...Down,
+  ...Phone
 }
 export default install

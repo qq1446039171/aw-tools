@@ -1,17 +1,21 @@
 # AwMove
 
-## Usage
-
-Just for my own use.
-
 ```javascript
 import AwMove from 'aw-move'
 Vue.use(AwMove)
 ```
 
-## Installation
+## 安装
 
 ```javascript
 npm install aw-move
 ```
 
+#### 使用
+
+```js
+import  Awmove  from 'aw-{{kebabCase name}}'
+
+// 自定义指令
+v-move='.header'
+```
