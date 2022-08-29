@@ -5,5 +5,5 @@
 
 2. yarn workspaces xxx run build 
 
-3. yarn publish
+3. npm run pub
 ```
