@@ -1,0 +1,1 @@
+import e from"@/store";const r={inserted(r,t,o){const{value:n}=t,s=e.getters&&e.getters.roles;if(!(n&&n instanceof Array&&n.length>0))throw new Error("使用方式： v-permission=\"['admin','editor']\"");{const e=n;s.some((r=>e.includes(r)))||r.parentNode&&r.parentNode.removeChild(r)}}},t=function(e){e.directive(permission,r)};export{t as default};

@@ -1,4 +1,4 @@
-{
+{ 
   "name": "lerna-template",
   "private": true,
   "workspaces": [

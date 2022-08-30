@@ -1,0 +1,1 @@
+cd packages/aw-permission && npm i && npm run build

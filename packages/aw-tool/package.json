@@ -1,6 +1,6 @@
 {
   "name": "aw-tool",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "aw-tool",
   "author": "Awed",
   "type": "module",
@@ -36,5 +36,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "f720ee8f669a4928129ef07b8d66ce04c2634212"
 }

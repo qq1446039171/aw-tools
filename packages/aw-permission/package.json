@@ -1,7 +1,7 @@
 {
-  "name": "aw-move",
+  "name": "aw-permission",
   "version": "0.0.6",
-  "description": "aw-move",
+  "description": "aw-permission",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/hbowen/aw-move"
+    "url": "https://gitee.com/hbowen/aw-permission"
   },
   "license": "ISC",
   "peerDependencies": {
