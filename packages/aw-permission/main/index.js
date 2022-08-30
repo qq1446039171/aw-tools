@@ -15,7 +15,7 @@ const permission = {
         el.parentNode && el.parentNode.removeChild(el)
       }
     } else {
-      throw new Error(`使用方式： v-permission="['admin','editor']"`)
+      throw new Error(`使用方式: v-permission="['admin','editor']"`)
     }
   }
 }
