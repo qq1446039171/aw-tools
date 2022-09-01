@@ -2,6 +2,7 @@ const move = {
   inserted(el, nodeName) {
     const headerElement = el.querySelector(nodeName.value)
     const dragDialog = el
+    headerElement.style.cursor = 'move'
     // 获取原有属性 ie dom元素.currentStyle 火狐谷歌 window.getComputedStyle(dom元素, null);
     const sty = dragDialog.currentStyle || window.getComputedStyle(dragDialog, null)
     if (headerElement) {
