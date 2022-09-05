@@ -10,7 +10,7 @@ const down = {
   @example downloadFile(result, title + "数据", "xlsx")
   @return  file   
   */
-  downloadFile(obj, name, suffix) {
+  downloadFile(obj, name, suffix = 'xlsx') {
     name = name || new Date().getTime()
     const url = window.URL.createObjectURL(new Blob([obj]))
     const link = document.createElement('a')

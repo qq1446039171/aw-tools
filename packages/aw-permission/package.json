@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://gitee.com/hbowen/aw-permission"
   },
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "vue": "^2.6.14"
   },
