@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://gitee.com/hbowen/aw-xlsx"
   },
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "file-saver": "2.0.1",
     "vue": "^2.6.14",
