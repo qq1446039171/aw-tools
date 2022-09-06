@@ -1,6 +1,6 @@
 {
   "name": "aw-xlsx",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "aw-xlsx",
   "author": "Awed",
   "type": "module",
@@ -22,9 +22,9 @@
   },
   "license": "ISC",
   "peerDependencies": {
+    "file-saver": "2.0.1",
     "vue": "^2.6.14",
-    "xlsx": "0.14.1",
-    "file-saver": "2.0.1"
+    "xlsx": "0.14.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
