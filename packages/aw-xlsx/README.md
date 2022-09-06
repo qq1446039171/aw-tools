@@ -1,10 +1,5 @@
 # AwXlsx
 
-```javascript
-import AwXlsx from 'aw-xlsx'
-Vue.use(AwXlsx)
-```
-
 ## 安装
 
 ```javascript
@@ -16,6 +11,6 @@ npm install aw-xlsx
 ```js
 import  Awxlsx  from 'aw-xlsx'
 
-Vue.use(Awxlsx)
+Awxlsx(data)
 ```
 

@@ -1,7 +1,4 @@
-import Xlsx from './main/Export2Excel'
-function xlsx(param) {
-  let { header, data, filename, autoWidth = true, type = 'xlsx' } = { param }
-  Xlsx.export_json_to_excel(header, data, filename, autoWidth, type)
+import { export_json_to_excel } from './main/Export2Excel'
+export default function xlsx(excelData) {
+  export_json_to_excel(excelData)
 }
-
-export default xlsx
