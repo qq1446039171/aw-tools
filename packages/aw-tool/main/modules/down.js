@@ -61,7 +61,7 @@ const down = {
     const link = document.createElement('a')
     link.style.display = 'none'
     link.href = url
-    const name = parseTime(new Date()) + '-' + fileName + '.' + type
+    const name =  fileName + '.' + type
     link.setAttribute('download', name)
     document.body.appendChild(link)
     link.click()
