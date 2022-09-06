@@ -9,7 +9,8 @@
     "pub": "lerna publish",
     "pub:force": "lerna publish --force-publish *",
     "pub:skip": "lerna publish --skip-git",
-    "git": "git add -A && git commit -m 'deploy' && git push"
+    "git": "git add -A && git commit -m 'deploy' && git push",
+    "ins":"lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^5.4.3",
