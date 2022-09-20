@@ -24,7 +24,7 @@ const down = {
   },
 
   /**
-   下载文件  由后端做的导出
+   下载文件  由前端做的导出
   @method leadDownloadFile
   @param {
     header -> 需要导出的头部标题  

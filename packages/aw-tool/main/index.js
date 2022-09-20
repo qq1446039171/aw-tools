@@ -2,7 +2,7 @@ const tool = {
   demo() {
     console.log('demo打印的')
   },
-  
+
   /**
    金额千分位格式化
   @method  mobileReg
@@ -20,6 +20,15 @@ const tool = {
   */
   trim(str) {
     return str.replace(/^\s+|\s+$/g, '')
+  },
+
+  /**
+   生成随机数字符串
+  @method  random
+  */
+  random() {
+    let num = Math.random() + new Date()
+    return num.toString(16).replace('.', '')
   },
 
   /**
