@@ -9,9 +9,9 @@ npm install aw-xlsx
 #### 使用
 
 ```js
-import  Awxlsx  from 'aw-xlsx'
+import  AwXlsx  from 'aw-xlsx'
 
-Awxlsx(data)
+AwXlsx(data)
 
 // data对象中包含的参数: 
 {
