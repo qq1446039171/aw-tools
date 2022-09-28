@@ -1,4 +1,8 @@
 ```
+创建一个插件 
+
+1. npm run create
+
 流程:
 
 1. lerna bootstrap (lerna run --scope aw-tool ins # 运行 aw-tool 模块下的 ins)

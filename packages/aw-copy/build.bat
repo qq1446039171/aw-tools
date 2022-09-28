@@ -1,0 +1,1 @@
+cd packages/aw-copy && npm i && npm run build

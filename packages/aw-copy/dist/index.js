@@ -1,0 +1,1 @@
+const e={inserted(e,t){e.copyData=t.value,e.addEventListener("click",function(e){const t=document.createElement("input");t.value=e.copyData.toLocaleString(),document.body.appendChild(t),t.select(),document.execCommand("Copy"),document.body.removeChild(t),console.log("复制成功！")}(e))},updated(e,t){e.copyData=t.value}};const t=function(t){t.directive(copy,e)};export{t as default};
