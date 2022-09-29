@@ -17,7 +17,7 @@ const copy = {
         document.execCommand('copy', false, null)
         transfer.blur()
         document.body.removeChild(transfer)
-        vnode.context.$Message.success('复制成功')
+        vnode.context.$message.success('复制成功')
         // if (this.$message) {
         //   this.$message.success('复制成功')
         // }
