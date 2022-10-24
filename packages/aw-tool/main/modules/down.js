@@ -29,7 +29,7 @@ const down = {
   @param {
     header -> 需要导出的头部标题  
     data -> 需要导出的内容
-    filename -> 导出文件的名称
+    fileName -> 导出文件的名称
     type -> 导出的格式 支持('xlsx', 'csv', 'txt')
   }
   @example leadDownloadFile({result, title + "数据", "xlsx"})

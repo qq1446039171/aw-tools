@@ -55,6 +55,30 @@ const tool = {
     })
     // 返回树形结构
     return arr
+  },
+
+  /**
+   数组对象去重
+    @method  uniqueArrayObject
+    @param {
+          list -> 想要去重的List
+          key -> 去重的字段
+    }
+    @example uniqueArrayObject(list,'id')   
+    @return  Array   []
+  */
+  uniqueArrayObject(arr = [], key = 'id') {
+    if (arr.length == 0) return
+    let list = [] // 最终数组
+    const map = {}
+
+    arr.forEach((item) => {
+      if (!map[item[key]]) {
+        map[item[key]] = item
+      }
+    })
+    list = Object.values(map)
+    return list
   }
 }
 
