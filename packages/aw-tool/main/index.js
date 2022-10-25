@@ -67,17 +67,29 @@ const tool = {
     @example uniqueArrayObject(list,'id')   
     @return  Array   []
   */
+  // uniqueArrayObject(arr = [], key = 'id') {
+  //   if (arr.length == 0) return
+  //   let list = [] // 最终数组
+  //   const map = {}
+
+  //   arr.forEach((item) => {
+  //     if (!map[item[key]]) {
+  //       map[item[key]] = item
+  //     }
+  //   })
+  //   list = Object.values(map)
+  //   return list
+  // },
   uniqueArrayObject(arr = [], key = 'id') {
     if (arr.length == 0) return
     let list = [] // 最终数组
-    const map = {}
-
+    const map = new Map()
     arr.forEach((item) => {
-      if (!map[item[key]]) {
-        map[item[key]] = item
+      if (!map.has(item[key])) {
+        map.set(item[key], item)
       }
     })
-    list = Object.values(map)
+    list = [...map.values()]
     return list
   }
 }
