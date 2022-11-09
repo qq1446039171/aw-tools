@@ -91,6 +91,50 @@ const tool = {
     })
     list = [...map.values()]
     return list
+  },
+
+  /**
+   数字1 转成 中文一
+  @method  toChinesNum
+  @param value -> 想要格式化的数字
+  @example toChinesNum('1')   
+  */
+  toChinesNum(num) {
+    let changeNum = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九']
+    let unit = ['', '十', '百', '千', '万']
+    num = parseInt(num)
+    let getWan = (temp) => {
+      let strArr = temp.toString().split('').reverse()
+      let newNum = ''
+      let newArr = []
+      strArr.forEach((item, index) => {
+        newArr.unshift(item === '0' ? changeNum[item] : changeNum[item] + unit[index])
+      })
+      let numArr = []
+      newArr.forEach((m, n) => {
+        if (m !== '零') numArr.push(n)
+      })
+      if (newArr.length > 1) {
+        newArr.forEach((m, n) => {
+          if (newArr[newArr.length - 1] === '零') {
+            if (n <= numArr[numArr.length - 1]) {
+              newNum += m
+            }
+          } else {
+            newNum += m
+          }
+        })
+      } else {
+        newNum = newArr[0]
+      }
+      return newNum
+    }
+    let overWan = Math.floor(num / 10000)
+    let noWan = num % 10000
+    if (noWan.toString().length < 4) {
+      noWan = '0' + noWan
+    }
+    return overWan ? getWan(overWan) + '万' + getWan(noWan) : getWan(num)
   }
 }
 
