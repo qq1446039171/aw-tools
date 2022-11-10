@@ -1,0 +1,1 @@
+cd packages/aw-lazy && npm i && npm run build
