@@ -1,0 +1,1 @@
+const e={inserted(e,t){e.querySelector(t.value.class).addEventListener("scroll",(function(){this.scrollHeight-this.scrollTop<=this.clientHeight&&t.value.loadFun()}))}},t=function(t){t.directive("lazy",e)};export{t as default};

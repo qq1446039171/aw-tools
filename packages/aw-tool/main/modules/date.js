@@ -20,20 +20,18 @@ const date = {
  @example getFirstLastDay()  假如本月为10月
  @return  Object   return {10/01,10/31}
 */
-getFirstLastDay(){
-  var now = new Date()
-  var y = now.getFullYear()
-  var m = now.getMonth()
-  var first = new Date(y,m,1) // 获取当月第一天
-  var last = new Date(y,m+1,0) // 获取当月最后一天
+  getFirstLastDay() {
+    var now = new Date()
+    var y = now.getFullYear()
+    var m = now.getMonth()
+    var first = new Date(y, m, 1) // 获取当月第一天
+    var last = new Date(y, m + 1, 0) // 获取当月最后一天
 
-  first = first.getMonth()+1+"/"+"0"+first.getDate();
-  last = last.getMonth+1+"/"+last.getDate()
-  
-  return {first,last}
+    first = first.getMonth() + 1 + '/' + '0' + first.getDate()
+    last = last.getMonth + 1 + '/' + last.getDate()
 
-}
-
+    return { first, last }
+  },
 
   /**
    获取当前日期前几天的日期数组
