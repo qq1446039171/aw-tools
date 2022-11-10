@@ -1,9 +1,9 @@
 {
   "name": "aw-lazy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "aw-lazy",
   "author": "Awed",
-  "type":"module",
+  "type": "module",
   "main": "dist/index.js",
   "keywords": [
     "tools",
