@@ -10,5 +10,7 @@
 
 2. yarn workspaces xxx run build (lerna run --scope aw-tool build # 运行 aw-tool 模块下的 build)
 
-3. npm run pub
+3. npm run 
+
+4. npm run pub
 ```

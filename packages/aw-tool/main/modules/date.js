@@ -68,6 +68,37 @@ const date = {
     //  数组反转
     dateArr.reverse()
     return dateArr
+  },
+
+  /**
+ 时间戳转换为时间
+ @method  timestampToTime
+ @example timestampToTime(1637244864707)  时间戳：1637244864707
+ @return   String   return '2021-11-18 22:14:04'
+*/
+  timestampToTime(timestamp) {
+    timestamp = timestamp ? timestamp : null
+    let date = new Date(timestamp) //时间戳为10位需*1000，时间戳为13位的话不需乘1000
+    let Y = date.getFullYear() + '-'
+    let M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-'
+    let D = (date.getDate() < 10 ? '0' + date.getDate() : date.getDate()) + ' '
+    let h = (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':'
+    let m = (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) + ':'
+    let s = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()
+    return Y + M + D + h + m + s
+  },
+
+  /**
+ 时间yyyy-MM-dd HH:mm:ss转为时间戳
+ @method  timeToTimestamp
+ @example timeToTimestamp('2021-11-18 22:14:24')  时间戳：1637244864707
+ @return   String   return '1637244864707'
+*/
+  timeToTimestamp(time) {
+    let timestamp = Date.parse(new Date(time).toString())
+    console.log(time + '的时间戳为：' + timestamp)
+    return timestamp
+    //2021-11-18 22:14:24的时间戳为：1637244864707
   }
 }
 
