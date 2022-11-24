@@ -1,0 +1,1 @@
+cd packages/aw-print && npm i && npm run build
