@@ -9,7 +9,7 @@ npm install aw-move
 #### 使用
 
 ```js
-import  AwMove  from 'aw-{{kebabCase name}}'
+import  AwMove  from 'aw-move'
 
 Vue.use(AwMove)
 
