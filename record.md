@@ -4,6 +4,7 @@
 1. npm run create
 
 流程:
+lerna bootstrap
 备注: # 在 aw-tool 中 添加 print-js 作为devDependencies
 yarn workspace aw-tool add print-js --dev
 
