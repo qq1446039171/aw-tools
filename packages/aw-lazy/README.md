@@ -13,8 +13,9 @@ import  AwLazy  from 'aw-lazy'
 
 Vue.use(AwLazy)
 
-// 自定义指令使用
-v-lazy="{ class: '.step', loadFun: drugLoadMore }"
+// 自定义指令使用(配合Element中的select组件)
+v-lazy="{ class: '.el-select-dropdown .el-select-dropdown__wrap', loadFun: drugLoadMore }"
+// v-lazy="{ class: '.step', loadFun: drugLoadMore }"
 // .step 此类名需要设置 height: 210px; overflow-y: auto;
   // 历史任务信息查询（随访任务
   // drugLoadMore(patientId) {
