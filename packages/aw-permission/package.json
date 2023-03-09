@@ -1,7 +1,7 @@
 {
   "name": "aw-permission",
   "version": "0.0.10",
-  "description": "aw-permission",
+  "description": "权限指令",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",

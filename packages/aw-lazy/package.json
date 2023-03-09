@@ -1,7 +1,7 @@
 {
   "name": "aw-lazy",
   "version": "0.0.3",
-  "description": "aw-lazy",
+  "description": "下拉加载更多的一个指令",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",

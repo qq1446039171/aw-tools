@@ -1,7 +1,7 @@
 {
   "name": "aw-print",
   "version": "0.0.5",
-  "description": "aw-print",
+  "description": "打印的指令",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",

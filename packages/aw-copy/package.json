@@ -1,7 +1,7 @@
 {
   "name": "aw-copy",
   "version": "0.0.6",
-  "description": "aw-copy",
+  "description": "自定义指令v-copy,用于对文本的复制",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",

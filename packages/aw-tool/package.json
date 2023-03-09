@@ -1,7 +1,7 @@
 {
   "name": "aw-tool",
   "version": "0.0.14",
-  "description": "aw-tool",
+  "description": "工具类库",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",

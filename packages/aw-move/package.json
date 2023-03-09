@@ -1,7 +1,7 @@
 {
   "name": "aw-move",
   "version": "0.0.12",
-  "description": "aw-move",
+  "description": "拖拽指令",
   "author": "Awed",
   "type": "module",
   "main": "dist/index.js",
