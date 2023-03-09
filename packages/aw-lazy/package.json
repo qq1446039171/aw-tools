@@ -1,6 +1,6 @@
 {
   "name": "aw-lazy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "下拉加载更多的一个指令",
   "author": "Awed",
   "type": "module",

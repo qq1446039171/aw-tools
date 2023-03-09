@@ -1,6 +1,6 @@
 {
   "name": "aw-copy",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "自定义指令v-copy,用于对文本的复制",
   "author": "Awed",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "aw-xlsx",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "excel文件下载插件",
   "author": "Awed",
   "type": "module",
